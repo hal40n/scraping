@@ -22,9 +22,6 @@ const puppeteer = require('puppeteer');
 
     // Query for an element handle
 
-    // Debug cord
-    // await page.screenshot({path: 'screenshot.png'});
-
     // Search by entering values in the search form
     // after entering, press enter button
     await page.type('.a4bIc', 'AWS 導入事例');
